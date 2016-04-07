@@ -10,5 +10,6 @@ namespace Pixel.Sample.Core.Domain
     public class Foo : BaseEntityIdent<int>
     {
         public virtual string Title { get; set; }
+        public virtual Bar Bar { get; set; }
     }
 }

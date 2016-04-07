@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\Bar.cs" />
     <Compile Include="Domain\Base\BaseEntity.cs" />
     <Compile Include="Domain\Foo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

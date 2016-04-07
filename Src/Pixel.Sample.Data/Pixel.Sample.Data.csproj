@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="DataInitializer.cs" />
     <Compile Include="DataModule.cs" />
+    <Compile Include="Mapping\BarMap.cs" />
     <Compile Include="Mapping\Base\BaseMap.cs" />
     <Compile Include="Mapping\FooMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
