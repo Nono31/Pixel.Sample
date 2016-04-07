@@ -66,7 +66,6 @@ namespace Pixel.Sample.Data
                 return sessionFactory.GetCurrentSession();
             }
             var session = sessionFactory.OpenSession();
-            session.BeginTransaction(IsolationLevel.ReadCommitted);
             CurrentSessionContext.Bind(session);
             return session;
         }
